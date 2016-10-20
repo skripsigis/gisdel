@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"Skripsi/gislus/library/knot/knot.v1"
+	"Skripsi/gisdel/library/knot/knot.v1"
 )
 
 type LiftingController struct {

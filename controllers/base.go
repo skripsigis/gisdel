@@ -1,13 +1,13 @@
 package controllers
 
 import (
-	"Skripsi/gislus/webapp/commons"
+	"Skripsi/gisdel/webapp/commons"
 	"log"
 	"net/http"
 	"strings"
 
-	"Skripsi/gislus/library/knot/knot.v1"
-	"Skripsi/gislus/library/orm"
+	"Skripsi/gisdel/library/knot/knot.v1"
+	"Skripsi/gisdel/library/orm"
 )
 
 type IBaseController interface {

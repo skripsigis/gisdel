@@ -2,15 +2,15 @@ package webext
 
 import (
 	"bufio"
-	. "Skripsi/gislus/webapp/controllers"
+	. "Skripsi/gisdel/webapp/controllers"
 	"fmt"
 	"os"
 	"strings"
 
-	"Skripsi/gislus/library/dbox"
-	_ "Skripsi/gislus/library/dbox/dbc/mongo"
-	"Skripsi/gislus/library/knot/knot.v1"
-	"Skripsi/gislus/library/orm"
+	"Skripsi/gisdel/library/dbox"
+	_ "Skripsi/gisdel/library/dbox/dbc/mongo"
+	"Skripsi/gisdel/library/knot/knot.v1"
+	"Skripsi/gisdel/library/orm"
 )
 
 var (

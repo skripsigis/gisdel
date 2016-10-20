@@ -5,9 +5,9 @@ import (
 	"io"
 	"os"
 
-	"Skripsi/gislus/library/dbox"
-	"Skripsi/gislus/library/knot/knot.v1"
-	"Skripsi/gislus/library/toolkit"
+	"Skripsi/gisdel/library/dbox"
+	"Skripsi/gisdel/library/knot/knot.v1"
+	"Skripsi/gisdel/library/toolkit"
 )
 
 var (

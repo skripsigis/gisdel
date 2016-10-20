@@ -20,26 +20,26 @@ h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
 .navbar-brand { margin-left: 10px; margin-right: 20px; padding: 7px 15px; }
 .navbar-brand span { display: none; }
 
-.navbar-nav-wrapper { border-top: 0px solid #D33C38; background: #DB3438; padding: 0; height: 36px; margin-left: -35px; }
+.navbar-nav-wrapper { border-top: 0px solid #234700; background: #234700; padding: 0; height: 36px; margin-left: -35px; }
 .navbar-default .navbar-nav > li > a {
 	padding: 8px 25px;
 	cursor: pointer;
 	color: #fff;
 }
 .navbar-default .navbar-nav > li.active > a { 
-	background: #A80D0D;
+	background: #3b7700;
 	color: #fff; 
-	border-bottom: 0px solid #A80D0D; 
+	border-bottom: 0px solid #3b7700; 
 }
 .navbar-default .navbar-nav > li.dropdown.open > a { 
 	background: #F79C00;
 	color: #fff; 
-	border-bottom: 0px solid #A80D0D; 
+	border-bottom: 0px solid #3b7700; 
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li.active > a:hover { 
 	background: #F79C00; 
 	color: #fff; 
-	border-bottom: 0px solid #A80D0D; 
+	border-bottom: 0px solid #3b7700; 
 }
 .navbar-default .navbar-nav > li.dropdown > a[class="dropdown-toggle"]:after { 
     font: normal normal normal 14px/1 'FontAwesome';
@@ -67,7 +67,7 @@ label.control-label { padding-top: 5px; text-align: left; }
 .label.label-nav {
 	padding: 5px 10px;
 	font-weight: 600;
-	background: #D33C38;
+	background: #234700;
 	color: #fff;
 	border-radius: 15px;
 	margin-left: 10px;
@@ -75,7 +75,7 @@ label.control-label { padding-top: 5px; text-align: left; }
 }
 .active .label.label-nav {
 	background: #fff;
-	color: #D33C38;
+	color: #234700;
 }
 .align-left { text-align: left; }
 .align-right { text-align: right; }
@@ -86,7 +86,7 @@ label.control-label { padding-top: 5px; text-align: left; }
 }
 .login-form-wrapper {
 	height: 100vh;
-	background: #FF7503 url(../img/footer.png) no-repeat -83px bottom;
+	background: #468e00 url(../img/footer.png) no-repeat -83px bottom;
 	color: #fff;
 	border-left: 0px solid #E7E7E7;
 	text-align: center;
@@ -146,11 +146,15 @@ label.control-label { padding-top: 5px; text-align: left; }
 .content {
 	margin: -10px 0px 20px 0px;
 }
+.bckConFluid{
+	background-color: #c8f899;
+}
 #wrapper.bodyonly { margin: 0; padding: 0; overflow: hidden; }
 input[type="text"].form-control { font-size: 12px; padding: 3px 10px; }
 .bodyonly > .container-fluid {
 	margin: 0;
 	padding: 0;
+	background-color: #c8f899;
 }
 .bodyonly .wrapper {
 	margin: 0;
@@ -269,13 +273,13 @@ input[type="text"].form-control { font-size: 12px; padding: 3px 10px; }
 .nav.nav-tabs li a:hover {
 	border: 1px solid #AF2A2D;
 	border-bottom: 1px solid transparent;
-	background: #DB3438;
+	background: #234700;
 	color: #fff;
 }
 .nav.nav-tabs li.active a {
 	border: 1px solid #AF2A2D;
 	border-bottom: 1px solid transparent;
-	background: #DB3438;
+	background: #234700;
 	color: #fff;
 }
 .tab-content {

@@ -1,14 +1,14 @@
 package main
 
 import (
-	_ "Skripsi/gislus/webapp/webext"
+	_ "Skripsi/gisdel/webapp/webext"
 	"net/http"
 		"bufio"
 	"fmt"
 	"os"
 	"strings"
 
-	"Skripsi/gislus/library/knot/knot.v1"
+	"Skripsi/gisdel/library/knot/knot.v1"
 )
 
 func main() {

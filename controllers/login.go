@@ -1,12 +1,12 @@
 package controllers
 
 import (
-	"Skripsi/gislus/webapp/commons"
-	. "Skripsi/gislus/webapp/models"
+	"Skripsi/gisdel/webapp/commons"
+	. "Skripsi/gisdel/webapp/models"
 
-	"Skripsi/gislus/library/dbox"
-	"Skripsi/gislus/library/knot/knot.v1"
-	tk "Skripsi/gislus/library/toolkit"
+	"Skripsi/gisdel/library/dbox"
+	"Skripsi/gisdel/library/knot/knot.v1"
+	tk "Skripsi/gisdel/library/toolkit"
 )
 
 type LoginController struct {
